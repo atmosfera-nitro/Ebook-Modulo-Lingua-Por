@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 9.7.6.18120 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>[Nitro] Língua Portuguesa - Funções da Linguagem - Ebook</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/viewer.js"></script>
+	
+	<script src=lms.js></script>
+	<script>
+		if (document.addEventListener) // IE9+
+		{
+			var book = "eNp1VF1u2zgQvgohoG+2YLv+i99oiU7UKJJryekGRSDQFqMQlUmXoly0cYC9wN5hiwV2gQX2qegJdJM9yQ4lxVm0CAzQ5Dcz3/xqHizNdc6smfU+4FrJW+RX/4ispGgplS6zkhUUddGiFNVf1XdWoJQinxuFjO1AQDZSfrA61h7eEf/CCmv2/sEq4AaX0dnIHkzGnemwb0/PbjuWoiIzgn5ndPsI74LmGlwTZ0z6037vtTMZDAmZnA2nQzJY9Al25r2FS4D/nha+3NL8mqmCS2HNtCpZDS9pUXySKrVmdzQvAOP9KcgfLOImOLpMljiK3oUrN3E97IfniRdcY99zn3Efz4kPUWBUMHFPUcozrinkKao/JGKFpmgrlWKa2ihmQjMk5IHuzM2GyF5w88TqGjaGaEu+p4oiulFcGWaGcn5QcvYyzdLHDrkIfZesgCwyHI2ygwOnduBQsWU5VQ3shxhU6z8veI7CoZBARkUq//31z0YzvAQcjo61nCfYdZN5GF5e4dVlckFw4w6nfAvFNmZoR9WWplJBh3+2iMkvMei/LWvVg9xWf5v0+IEplDPAOmib84+lKR3aSG0K+0TYlKR+wb36mnEBFdIlze3W03l4yoNqVX1tI3jyHiUxnoPs6ocIXXwTnQxTTlv4IlyvnvH7ovVy5QXrmDwLdlw8ScIgvmjwCARvqLCPC3awj+DQPuKNMjduH9+Uwhw5YJm0jxHT9jEs4QgkKLvsS8sXhEm4jn0vIMAWQEfLHYJvDmrNGoVW2qZV/fY/0RKfk1OIy7ZYr2o0WF/NyepVo7ciDgli/8a0ibigK+pp4wKmGea2UVoH+Bp7wOaTZI6DAOambeR13cGi+ob2MoUhNW00g1rAl7BDEG/B1IGb5qF3bGO/TOfFvsnSN8ZoX25ybloE5kBR7mHDMFT9jhTbK5mWsGFgLuTdXTfnoo3xhkQxWUErT1lLiH9nPcLKUVKzrV4ouXPk/jMspdMKuIMHU3vFhVkv/f7krDcYDrqT8QJ3By4ZdSe9Ra876o0X8BvOx6/H4I0XxiBb5vSzBz4yRXW9aVpOmCsNwxVpCvVrwMf/AIU8scI=";
+
+			document.addEventListener("DOMContentLoaded", function() {
+				PdfViewer.checkMobileIntegration(book);
+
+				var viewerInitCallback = function(viewer) {
+									(function(viewer){
+					var lms = iSpring.pdfviewer.LMS.instance();
+					lms.start(viewer);
+				
+					window.onunload = window.onbeforeunload = function()
+					{
+						lms.closeLms();
+					};
+				})(viewer)
+
+				};
+
+				var startupApplication = function(initViewerState) {
+					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+				};
+
+				(function(startupFunc) {
+					if (startupFunc)
+					{
+						startupFunc(startupApplication);
+					}
+					else
+					{
+						startupApplication();
+					}
+				})(				function(startupApplication) {
+					var params = {
+						docId: "",
+						flags: 0,
+						resumeMode: "always",  
+						tincan:
+						{
+							endPoint: "",
+							auth:
+							{
+								type: "",
+								key: "",
+								login: "",
+								password: "",
+								name: "",
+								email: ""
+							},
+							i18n:{
+				}
+						},
+						scorm2004:
+						{
+							edition: "2"
+						}
+					};
+				
+					var lms = iSpring.pdfviewer.LMS.create("2004", params);
+					lms.initialize(startupApplication);
+				}
+);
+			});
+		}
+		else
+		{
+			location.replace("data/html5-unsupported.html");
+		}
+	</script>
+</head>
+<body></body>
+</html>
